@@ -62,7 +62,7 @@ function Page() {
 
       // Redirect after saving
       setTimeout(() => {
-        window.location.href = "https://www.google.com/travel/hotels/entity/CgoIm8ewyPDBoJlaEAE?q=crossroads%20inn%20fort%20pierce&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764&hl=en-US&gl=us&ssta=1&ts=CAEaSQorEicyJTB4ODhkZWYzNGRiMjAwNzRhMToweDVhMzI4MjBmMDkwYzIzOWIaABIaEhQKBwjqDxAEGBcSBwjqDxAEGBgYATICEAAqCQoFOgNVU0QaAA&qs=CAE4AkIJCZsjDAkPgjJaQgkJmyMMCQ-CMlo&ved=0CAAQ5JsGahcKEwiI0ojqhISUAxUAAAAAHQAAAAAQAw&ictx=111&utm_campaign=sharing&utm_medium=link&utm_source=htls";
+        window.location.href = "https://www.google.com/travel/hotels/entity/CgoIm8ewyPDBoJlaEAE/reviews?q=crossroads%20inn%20fort%20pierce&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764&hl=en-US&gl=us&ssta=1&ts=CAEaSQorEicyJTB4ODhkZWYzNGRiMjAwNzRhMToweDVhMzI4MjBmMDkwYzIzOWIaABIaEhQKBwjqDxAFGBsSBwjqDxAFGBwYATICEAAqCQoFOgNVU0QaAA&qs=CAE4AkIJCZsjDAkPgjJaQgkJmyMMCQ-CMlo&ictx=111&utm_campaign=sharing&utm_medium=link&utm_source=htls";
       }, 1000);
     } else if (r <= 3) {
       // Low rating - show feedback form
