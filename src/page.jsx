@@ -46,7 +46,7 @@ function Page() {
         };
 
         await axios.post(
-          "https://hollister-inn-backend.onrender.com/feedback",
+          "https://crossroadsinnfl-backend.onrender.com/feedback",
           ratingData,
           {
             timeout: 10000,
@@ -117,7 +117,7 @@ function Page() {
       console.log("Submitting feedback:", feedbackData);
 
       const response = await axios.post(
-        "https://hollister-inn-backend.onrender.com/feedback",
+        "https://crossroadsinnfl-backend.onrender.com/feedback",
         feedbackData,
         {
           timeout: 60000,
